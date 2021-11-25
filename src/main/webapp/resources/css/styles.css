@@ -1,0 +1,148 @@
+* {
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.disable-mouse {
+    pointer-events: none;
+    cursor: progress;
+}
+
+html, body {
+    height: 100vh;
+}
+
+.ten {
+    height: 10vh;
+}
+.ninety {
+    height: 90vh;
+}
+
+.blue-container {
+    background: cornflowerblue;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.blue-container.upload {
+    padding: 126px;
+}
+
+td {
+    cursor: pointer;
+}
+
+.fixed {
+    padding: 10px;
+    height: 10%;
+}
+
+.tableWrapper {
+    width: 90%;
+    margin: auto;
+}
+
+.graphContainer {
+    height: 100%;
+    width: 100%;
+    min-height: 95%;
+    background: #dbe4ed27 ;
+}
+
+.nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar li {
+    float: left;
+}
+
+.nav-bar li a {
+    display: block;
+    padding: 8px;
+    color: cornflowerblue;
+}
+
+.nav-bar li a:hover {
+    text-decoration: none;
+    color: cornflowerblue;
+    cursor: pointer;
+}
+
+.nav-main ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-main li {
+    float: right;
+}
+
+.nav-main a {
+    display: block;
+    padding: 8px;
+    color: white;
+}
+
+.nav-main a:hover {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.box {
+    height: 90%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    width: 100%;
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+#_surfaceNode {
+    background-color: #40e661;
+  }
+
+#_abstractNode {
+    background-color: #40c5e6;
+}
+
+#_topNode {
+    background-color: #e640c5;
+}
+
+#_tokens {
+    background-color: #e66140;
+}
+
+#_labelSpanMatch {
+    background-color: #e66140;
+}
+
+#_spanMatch {
+    background-color: #40e661;
+  }
+  
+#_labelMatch {
+    background-color: #107c26;
+  }
+
+#_noMatch {
+    background-color: #bababa; 
+}
