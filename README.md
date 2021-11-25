@@ -1,8 +1,10 @@
 # RepGraph
 
+The meaning of a sentence can be represented by a graph in which the nodes represent concepts, entities or actions, and the edges represent relations between the edges, indicating who does what to whom. Nodes and edges are labelled, and every node is linked to a word or a phrase in the sentence. Meaning representation graphs are used in question answering systems and other natural language processing applications. This project implements software to analyze and visualize meaning representation graphs from a linguistic framework called Minimal Recursion Semantics. The tool includes functionality such as to (a) visualize the graphs in relation to the sentences they represent, (b) search for subgraph patterns over a set of graphs, (c) display differences and similarities between a pair of graphs, and (d) test whether a number of formal graph properties hold for a graph. 
+
 ## BUILD
 
-This project was built with a maven rapper (*mvnw* for linux, *mvnw.cmd* for windows). This means you _can_ use your own maven installation, but you don't have to (we know how much having to install something would impede Emily's work (im kiddin)).
+This project was built with a maven rapper (*mvnw* for linux, *mvnw.cmd* for windows). This means you _can_ use your own maven installation, but you don't have to.
 
 Pretty sure you will just be able to import this project into IntelliJ, VsCode, Eclipse and pretty much any other java IDE that supports maven projects.
 
